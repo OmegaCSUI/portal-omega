@@ -1,0 +1,12 @@
+[07-Oct-2016 04:48:01 UTC] PHP Warning:  require(SSO/SSO.php): failed to open stream: No such file or directory in /home/anakomeg/public_html/portal.php on line 5
+[07-Oct-2016 04:48:01 UTC] PHP Fatal error:  require(): Failed opening required 'SSO/SSO.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/anakomeg/public_html/portal.php on line 5
+[07-Oct-2016 04:49:12 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/anakomeg/public_html/portal.php on line 28
+[08-Oct-2016 10:40:00 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/anakomeg/public_html/portal.php on line 28
+[08-Oct-2016 10:40:09 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/anakomeg/public_html/portal.php on line 28
+[09-Oct-2016 15:16:41 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/anakomeg/public_html/portal.php on line 28
+[09-Oct-2016 18:59:51 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/anakomeg/public_html/portal.php on line 28
+[09-Oct-2016 19:00:18 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/anakomeg/public_html/portal.php on line 28
+[09-Oct-2016 19:00:25 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/anakomeg/public_html/portal.php on line 28
+[10-Oct-2016 05:59:18 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1044): Access denied for user 'anakomeg_root'@'localhost' to database 'anakomeg_portal' in /home/anakomeg/public_html/portal.php on line 28
+[10-Oct-2016 10:08:25 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1044): Access denied for user 'anakomeg_root'@'localhost' to database 'anakomeg_portal' in /home/anakomeg/public_html/portal.php on line 28
+[10-Oct-2016 11:13:59 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1044): Access denied for user 'anakomeg_root'@'localhost' to database 'anakomeg_portal' in /home/anakomeg/public_html/portal.php on line 28
