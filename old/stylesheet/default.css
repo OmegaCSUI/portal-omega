@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background: url(../white%20damask%20pattern.jpg);	
+}
+
+#title{
+	display: block;
+	
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 40px;
+	text-align: center;
+}
+
+#portal{
+	display: block;
+	
+	text-align: center;
+}
+
+.pictmid{
+	display:block;
+	
+	position: absolute;
+	left: 50%;	
+}
+
+.button{
+	display: block;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+.button a{
+	padding: 10px 20px;
+	border-radius: 5px;
+	
+	text-decoration: none;
+	background-color:#0CF;
+	color:#555;
+	
+	transition-duration: 0.5s;
+}
+
+.button a:hover{
+	background-color:#0AB;
+	color:#FFF;
+}
