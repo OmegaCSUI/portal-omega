@@ -1,12 +1,17 @@
 <?php
 	require_once "environment.php";
 
-	function portal_get_sso_info() {
-		require "SSO/SSO.php";		
-
+	function portal_init() {
+		require "SSO/SSO.php";
 		SSO\SSO::setCASPath($GLOBALS['cas_path']); 
-		
-		if (!SSO\SSO::check())
+	}
+
+	function portal_is_logged_in() {
+		return SSO\SSO::check();
+	}
+
+	function portal_get_sso_info() {
+		if (!portal_is_logged_in())
 			SSO\SSO::authenticate();
 		else
 			return SSO\SSO::getUser();    

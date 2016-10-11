@@ -4,7 +4,7 @@
 	$GLOBALS['mediawiki_url'] = 'wiki';
 	$GLOBALS['db_password']   = 'omega!2016!';
 	$GLOBALS['db_name'] 	  = 'anakomeg_portal';
-	$GLOBALS['base_url']	  = 'localhost';	
+	$GLOBALS['base_url']	  = 'http://localhost';	
 	$GLOBALS['bot_username']  = "omegabot";
 	$GLOBALS['bot_password']  = "isthisreallifeoritisjustafantasy";
 	$GLOBALS['cas_path']	  = "phpcas/CAS.php";
