@@ -4,5 +4,5 @@
 
 	portal_init();
 	SSO\SSO::authenticate();
-	header("Location: ".$GLOBALS['base_url']."/anak-omega");
+	header("Location: ".$GLOBALS['base_url']."/anak-omega/");
 ?>
