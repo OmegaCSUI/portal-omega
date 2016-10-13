@@ -18,14 +18,16 @@
 
     <title>Anak Omega - Portal</title>
 
+    <link href="assets/favicon.ong" rel="icon">
+
     <!-- Bootstrap Core CSS -->
-    <link href="../scrolling-nav/css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="../scrolling-nav/css/scrolling-nav.css" rel="stylesheet">
-    <link href="../scrolling-nav/css/grid.css" rel="stylesheet">
-    <link href="../scrolling-nav/css/button-custom.css" rel="stylesheet">
-    <link href="../scrolling-nav/css/arrow-bounce.css" rel="stylesheet">
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/button-custom.css" rel="stylesheet">
+    <link href="css/arrow-bounce.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -39,7 +41,7 @@
 
     <!-- Intro Section -->
     <section id="intro" class="intro-section">
-        <img src="../scrolling-nav/assets/omega-logo-midres.png" width="450px" height="450px"></br></br>
+        <img src="assets/omega-logo-midres.png" width="450px" height="450px"></br></br>
         <?php
             $logged_in = portal_is_logged_in();
             if($logged_in){
@@ -55,7 +57,7 @@
             //echo '<a href="'.$GLOBALS['mediawiki_url'].'">wiki here</a></br>';
         ?>
         <div class="bounce">
-            <a class="page-scroll" href="#about"><img src="../scrolling-nav/assets/arrow.png" width="120px" height="50px"></a>
+            <a class="page-scroll" href="#about"><img src="assets/arrow.png" width="120px" height="50px"></a>
         </div>
     </section>
     <!-- About Section -->
@@ -65,25 +67,25 @@
                 <div class="col-md-4">
                     <?php
                         if($logged_in){
-                            echo '<a href="ceritanyawiki.php"><img src="../scrolling-nav/assets/imgimg.jpg">';
+                            echo '<a href="ceritanyawiki.php"><img src="assets/imgimg.jpg">';
                             echo '<h3>Wiki</h3></a>';
                         }else{
-                            echo '<a data-toggle="modal" href="#myModal" ><img src="../scrolling-nav/assets/imgimg.jpg">';
+                            echo '<a data-toggle="modal" href="#myModal" ><img src="assets/imgimg.jpg">';
                             echo '<h3>Wiki</h3></a>';
                         }
                     ?>
                 </div>
                 <div class="col-md-4">
-                    <img src="../scrolling-nav/assets/imgimg.jpg">
+                    <img src="assets/imgimg.jpg">
                     <h3>Blog</h3>
                 </div>
                 <div class="col-md-4">
                     <?php
                         if($logged_in){
-                            echo '<a href="ceritanyagames.php"><img src="../scrolling-nav/assets/imgimg.jpg">';
+                            echo '<a href="ceritanyagames.php"><img src="assets/imgimg.jpg">';
                             echo '<h3>Games</h3></a>';
                         }else{
-                            echo '<a data-toggle="modal" href="#myModal" ><img src="../scrolling-nav/assets/imgimg.jpg">';
+                            echo '<a data-toggle="modal" href="#myModal" ><img src="assets/imgimg.jpg">';
                             echo '<h3>Games</h3></a>';
                         }
                     ?>
@@ -109,14 +111,14 @@
     </section>
     
     <!-- jQuery -->
-    <script src="../scrolling-nav/js/jquery.js"></script>
+    <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="../scrolling-nav/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
     <!-- Scrolling Nav JavaScript -->
-    <script src="../scrolling-nav/js/jquery.easing.min.js"></script>
-    <script src="../scrolling-nav/js/scrolling-nav.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
 
 </body>
 
